@@ -1,4 +1,4 @@
-#### SatrCodes
+# SatrCodes
 
-### JavaScript 102:
-## Mowasalat project
+## JavaScript 102:
+### Mowasalat project
