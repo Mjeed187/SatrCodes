@@ -40,7 +40,7 @@ class Pilot extends Employee {
 }
 
 class Reservation {
-    constructor(reservationID, vehiclesId, reservationDate, employeeId ) {
+    constructor(reservationID, vehiclesId, employeeId, reservationDate) {
         this.reservationID = reservationID;
         this.vehiclesId = vehiclesId;
         this.employeeId = employeeId;
@@ -49,9 +49,13 @@ class Reservation {
 }
 
 
-const car1 = new Car('Charger', 'Dodge', 5187)
+/*const car1 = new Car('Charger', 'Dodge', 5187)
 const car2 = new Car('Corvet', 'Chevrolet', 5487)
 const car3 = new Car('GS 350F', 'Lexus', 7712)
-console.log(car1);
-console.log(car2);
-console.log(car3);
+*/
+const reservation1 = new Reservation(108, 1159, 5187, "2021/1/1")
+const reservation2 = new Reservation(109, 2222, 5487, "2021/2/4")
+const reservation3 = new Reservation(110, 1187, 7712, "2021/5/7")
+console.log(reservation1);
+console.log(reservation2);
+console.log(reservation3);
